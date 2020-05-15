@@ -1,2 +1,2 @@
 # studing-JS
-Studying JavaScript
+Studying JavaScript, CSS and HTML...
