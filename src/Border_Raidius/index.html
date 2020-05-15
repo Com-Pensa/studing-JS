@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Border Radius Previewer</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="slider.css">
 </head>
 <body>
-    <header> <h1>Border Radius Previewer</h1> </header>
-    <section id="main_square">
-        <div id="input_camps">
-            Radius: <input type="number" id="input_radius">
-            <br><button onclick="preview()">Preview</button>
-        </div>
-        <div id="previewer"></div>
-        <script src="source.js"></script>
+    <header>
+        <h1>Border Radius Previewer</h1>
+    </header>
+    <section>
+        <input type="range" id="top" min="1" max="100" value="50" class="hslider">
+        <div id="previewer"></div> <!-- The Previewer -->
+        <input type="range" id="bottom" min="1" max="100" value="50" class="hslider">
+        <br><button>Copy</button>
     </section>
     <footer>
-        <a href="https://github.com/Com-Pensa" target="_blank">Com-Pensa</a>
+        by <a href="https://github.com/Com-Pensa" target="_blank">Com-Pensa</a>
     </footer>
+    <script src="source.js"></script>
 </body>
 </html>
