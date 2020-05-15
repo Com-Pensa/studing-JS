@@ -1,39 +1,34 @@
 body {
-    background-color: rgb(25, 25, 25);
+    background-image: linear-gradient(-45deg, rgb(235, 51, 73), rgb(244, 92, 67));
     font-family: Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
 }
-h1 {
+header {
     color: white;
     text-align: center;
 }
-section#main_square {
-    box-shadow: 5px 5px 20px rgba(185, 185, 185, 0.267);
+section {
+    box-shadow: 5px 5px 20px rgba(31, 31, 31, 0.267);
     background-color: white;
     border-radius: 10px;
-    height: 350pt;
+    height: 380pt;
     width: 400pt;
     margin: auto;
 }
-input {
-    border: rgba(0, 0, 0, 0);
-    border-radius: 10px;
-    width: 50px;
-    margin: auto;
-}
-div#id_inputcamps {
-    background-color: white;
-    align-content: center;
-    height: 300pt;
-    width: 380pt;
-}
 div#previewer {
-    background-color: rgb(117, 217, 217);
-    height: 300pt;
-    width: 300pt;
+    background-image: linear-gradient(50deg, rgb(33, 147, 176), rgb(109, 213, 237));
+    height: 400px;
+    width: 400px;
     margin: auto;
 }
-footer {
+footer {  /* Credits */
+    color: white;
+    margin-top: 30px;
     text-align: center;
+    font-style: italic;
 }
 a {
     color: white;
