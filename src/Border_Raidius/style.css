@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(25, 25, 25);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+section#main_square {
+    box-shadow: 5px 5px 20px rgba(185, 185, 185, 0.267);
+    background-color: white;
+    border-radius: 10px;
+    height: 350pt;
+    width: 400pt;
+    margin: auto;
+}
+input {
+    border: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    width: 50px;
+    margin: auto;
+}
+div#id_inputcamps {
+    background-color: white;
+    align-content: center;
+    height: 300pt;
+    width: 380pt;
+}
+div#previewer {
+    background-color: rgb(117, 217, 217);
+    height: 300pt;
+    width: 300pt;
+    margin: auto;
+}
+footer {
+    text-align: center;
+}
+a {
+    color: white;
+}
