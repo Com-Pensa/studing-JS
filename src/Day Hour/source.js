@@ -13,7 +13,9 @@ function set_theme(color, image) {
     window.document.body.style.backgroundColor = `rgb(${color})`
     window.document.getElementById("main").src = `images/${image}.jpg`
 }
-
+/* 
+ * Images not included...
+ */
 if (hour < 12)      set_theme("40, 162, 192", "morning")
 
 else if (hour < 17) set_theme("204, 202, 63", "afternoon")
