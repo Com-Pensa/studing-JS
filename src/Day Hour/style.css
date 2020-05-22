@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    color: white;
+    text-align: center;
+}
+section {
+    box-shadow: 5pt 5pt 7pt rgba(0, 0, 0, 0.4);
+    background: white;
+    border-radius: 3%;
+    padding: 25pt;
+    width: 400pt;
+    margin: auto;
+}
+div#hours {
+    text-align: center;
+}
+img#main {
+    box-shadow: 5pt 5pt 7pt rgba(0, 0, 0, 0.4);
+    border-radius: 100%;
+    margin-top: 20pt;
+    margin-left: 75pt;
+    width: 250pt;
+}
+footer {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-style: italic;
+}
+a {
+    color: white;
+}
